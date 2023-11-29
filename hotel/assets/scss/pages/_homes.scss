@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    display: flex;
+
+
+}
+
+.navs {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.num {
+    width: 400px;
+    height: 50px;
+
+}
+
+#Robottemple {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+
+    background-image: url(https://images.squarespace-cdn.com/content/v1/52e14b81e4b04f6eddf1bbfc/640c3c35-8757-4df8-b169-03f0eba3ce46/PHOTO-2022-05-31-14-37-49+2.jpg?format=1500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.num {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hotellpages {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seevideo {
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00917C;
+}
+
+#phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.sec {
+    background-image: rgba(255, 255, 255, 0.7);
+}
+
+#sevices {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: none;
+
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    margin: 25px 0px;
+    text-align: center;
+
+}
+
+.btn {
+    color: gray;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+
+    &:hover {
+        cursor: pointer;
+        color: black;
+    }
+}
+
+.btnDiv {
+
+    gap: 5px;
+}
+
+.switch {
+    width: 60px;
+    height: 30px;
+    border-radius: 45%;
+    border: 1px solid gray;
+
+    &:hover {
+        cursor: pointer;
+        border-color: black;
+    }
+
+}
+
+.icon {
+    color: #00917C;
+    font-size: 50px;
+}
